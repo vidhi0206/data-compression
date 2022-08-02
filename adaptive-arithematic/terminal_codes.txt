@@ -1,0 +1,3 @@
+gcc AAC.c -o AAC -lpsapi
+./AAC -c stat-diff-II-2-BVP-5.txt encoded-stat-diff-2-BVP-5.txt
+./AAC -d encoded-diff-3-gactive.txt decoded.txt

@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "commons.h": "c",
+        "compressor.h": "c",
+        "decompressor.h": "c",
+        "time.h": "c"
+    }
+}

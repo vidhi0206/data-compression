@@ -1,0 +1,3 @@
+gcc fgk.c -o fgk -lpsapi
+./fgk -c stat-diff-2-BVP-9.txt encoded-stat-diff-2-BVP-9.txt
+./fgk -d encoded-stat-2-BVP-5.txt decoded.txt
