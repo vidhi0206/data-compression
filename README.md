@@ -27,3 +27,14 @@ gcc file-to-be-run.c -o file-to-be-run -lpsapi
 ```
 file names are given as encode/decode_float_blocksize.c
 the default block size is 16.
+All the datasets are gine in the dataset folder. 
+The datasets produced post applying statistical and entropy encoding are named as follows.
+* for statistical version 1:
+`encoded-stat-number_of_decimal_digits-dataset-blocksize-tau_value.txt`
+* for statistical version2:
+`encoded-stat-II-number_of_decimal_digits-dataset-blocksize-tau_value.txt`
+The datasets produced post applying statistical encoding are named as follows.
+* for statistical version 1:
+`stat-number_of_decimal_digits-dataset-blocksize-tau_value.txt`
+* for statistical version2:
+`stat-II-number_of_decimal_digits-dataset-blocksize-tau_value.txt`
